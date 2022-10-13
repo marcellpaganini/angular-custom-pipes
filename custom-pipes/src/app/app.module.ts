@@ -2,10 +2,12 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { CadRealPipe } from './pipes/cad-real.pipe';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CadRealPipe
   ],
   imports: [
     BrowserModule
